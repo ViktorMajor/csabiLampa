@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Képek és leírások beküldése</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Képek és leírás beküldése</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="name">Név:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="phone">Telefonszám:</label>
+        <input type="tel" id="phone" name="phone" required>
+      
+        <label for="email">E-mail cím:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="image">Kép:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+      
+        <label for="description">Leírás:</label>
+        <textarea id="description" name="description" required></textarea>
+      
+        <button type="submit">Küldés</button>
+      </form>
+      
+    <script src="script.js" type="module"></script>
+</body>
+</html>

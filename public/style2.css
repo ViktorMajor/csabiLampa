@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(169, 176, 153);
+
+  }
+  
+  /* A header stílusa */
+  header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  /* A cím stílusa */
+  h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  }
+  
+  /* A main tartalom stílusa */
+  main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  /* Az intro szöveg stílusa */
+  #description {
+  margin-bottom: 20px;
+  }
+  
+  /* A gomb stílusa */
+  button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  /* A gomb hover stílusa */
+  button:hover {
+  background-color: #555;
+  }
+  
+  /* A galéria stílusa */
+  #pics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  }
+  
+  /* A galéria képek stílusa */
+  #pics div {
+    border: 1px solid black;
+  height: 0;
+  padding-bottom: 100%;
+  background-image: url('placeholder.jpg');
+  background-size: cover;
+  background-position: center;
+  }
+  
+  /* A footer stílusa */
+  footer, header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  /* A footer linkjeinek stílusa */
+  footer a {
+  color: #fff;
+  text-decoration: none;
+  }
+  
+  /* A footer link hover stílusa */
+  footer a:hover {
+  text-decoration: underline;
+  }
+  button {
+    background-color: yellowgreen;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+  }
